@@ -25,9 +25,5 @@ update.packages(ask=F)
 devtools::install_github('filipezabala/ffit', force = T)
 
 # attaching
-library(voice)
-?conv_df
-?conv_mc
-?extract_features
-find.package('voice')
-packageDescription('voice')
+library(ffit)
+?ft
