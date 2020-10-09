@@ -1,2 +1,2 @@
-# fourier
-Functions to fit data with Fourier transforms.
+# ffit
+Functions to fit data with Discrete Fourier Series.
