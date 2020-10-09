@@ -15,9 +15,10 @@ plot(y, type='l')
 fit <- ffit(y)
 plot(ft, lwd = 3, col = 'red', xlim = range(1:length(y)), main = paste0('Fit order ', fit$fit.order))
 points(1:length(y), y, pch = '.')
-
+```
 ![](img/senoid.png)
 
+```r
 # Random data
 n <- 1000
 set.seed(4321)
@@ -25,6 +26,5 @@ y2 <- cumsum(rnorm(n))
 (fit <- ffit(y2, fit.order = 100))
 plot(ft, lwd = 3, col = 'red', xlim = range(1:n), main = paste0('Fit order ', fit$fit.order))
 points(1:n, y2, pch = '.')
-
-![](img/random.png)
 ```
+![](img/random.png)
