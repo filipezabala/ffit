@@ -6,7 +6,10 @@ Functions to fit data with Discrete Fourier Series.
 install.packages('devtools', dep = T)
 update.packages(ask = F)
 devtools::install_github('filipezabala/ffit', force = T)
+```
 
+## Examples
+```r
 # Senoid
 set.seed(123)
 t0 <- 1:(5*24*60)
