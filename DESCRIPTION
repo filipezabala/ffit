@@ -1,0 +1,17 @@
+Package: ffit
+Type: Package
+Title: ffit
+Version: 0.0.1
+Date: 2020-10-09
+Authors@R: c(
+    person("Zabala", "Filipe J.", email = "filipe.zabala@gmail.com", role = c("cre","aut")))
+Maintainer: Filipe J. Zabala <filipe.zabala@gmail.com>
+URL: https://github.com/filipezabala/ffit
+BugReports: https://github.com/filipezabala/ffit/issues
+Description: Functions to fit data with Discrete Fourier Series.
+Depends: R (>= 4.0.0)
+Imports: 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
