@@ -14,7 +14,6 @@ library(devtools)
 session_info()
 
 # updating and creating manual
-setwd('~/Dropbox/PUC/GEARS/ffit/')
 devtools::document(setwd('~/Dropbox/PUC/GEARS/ffit/'))
 
 # loading
