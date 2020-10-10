@@ -10,6 +10,7 @@ devtools::install_github('filipezabala/ffit', force = T)
 
 ## Examples
 ```r
+library(ffit)
 # Senoid
 set.seed(123)
 t0 <- 1:(5*24*60)
@@ -22,6 +23,7 @@ points(1:length(y), y, pch = '.')
 ![](img/senoid.png)
 
 ```r
+library(ffit)
 # Random data
 n <- 1000
 set.seed(4321)
